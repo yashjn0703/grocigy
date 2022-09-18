@@ -1,0 +1,31 @@
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a  = div.getElementByTagName("a");
+  for(i=0;i<a.length;i++){
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    }else{
+      a[i].style.display = "none";
+    }
+  }
+}
+
+#myInput{
+  box-sizing: border-box;
+  background-image: ;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px
+  border: none;
+}
+
+#myInput:focus{
+  outline: 7px solid #ddd;
+}
+
+I have designed the front page which contains different sections, product pages which contains all the products, a section of shop by category, a small dropdown selection box is provided in the top right of front page 

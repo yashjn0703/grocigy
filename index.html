@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="header-1">
+        <a href="file:///G:/grocify/index.html" class="logo"><i class="fas fa-shopping-basket"></i>Grocify</a>
+        <table>
+          <tr>
+            <td class="dropdown"><input type="dropdown" class="dropbtn" id="myInput" placeholder="select product..." onclick="myFunction()">
+              <div class="dropdown-content" id="myDropdown">
+                <a href="product.html">Banana</a>
+                <a href="product.html">Tomato</a>
+                <a href="product.html">orange</a>
+                <a href="product.html">apple</a>
+                <a href="product.html">oraganic grapes</a>
+                <a href="product.html">Carrot</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <div class="header-2">
+        <nav class="navbar">
+            <a href="file:///G:/grocify/index.html">home</a>
+            <a href="#category">category</a>
+            <a href="product.html">product</a>
+        </nav>
+
+        <div class="icons">
+          <a href="info.html" class="fas fa-info"></a>
+            <a href="signup.html" class="fas fa-user-circle"></a>
+        </div>
+
+      </div>
+
+    </header>
+
+    <section class="home" id="home">
+      <div class="image">
+        <img src="images/home-img.jpg" alt="">
+    </div>
+    <div class="content">
+        <span>fresh and organic</span>
+        <h3>your daily need products</h3>
+        <a href="product.html" class="btn">get started</a>
+    </div>
+    </section>
+
+    <section class="banner-container">
+
+    <div class="banner">
+        <img src="images/banner-1.jpg" alt="">
+        <div class="content">
+            <h3>special offer</h3>
+            <p>upto 45% off</p>
+            <a href="product.html" class="btn">check out</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/banner-2.jpg" alt="">
+        <div class="content">
+            <h3>limited offer</h3>
+            <p>upto 50% off</p>
+            <a href="product.html" class="btn">check out</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="category" id="category">
+
+    <h1 class="heading">shop by <span>category</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>vegitables</h3>
+            <p>upto 50% off</p>
+            <img src="images/category-1.png" alt="">
+            <a href="vegitables.html" class="btn">shop now</a>
+        </div>
+        <div class="box">
+            <h3>fruite</h3>
+            <p>upto 12% off</p>
+            <img src="images/category-4.png" alt="">
+            <a href="fruits.html" class="btn">shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send message" class="btn" onclick="sendMessage()">
+
+    </form>
+
+</section>
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#home" class="logo"><i class="fas fa-shopping-basket"></i>Grocify</a>
+            <div class="share">
+                <a href="#" class="btn fab fa-facebook-f"></a>
+                <a href="#" class="btn fab fa-twitter"></a>
+                <a href="#" class="btn fab fa-instagram"></a>
+                <a href="#" class="btn fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <div class="links">
+                <a href="#home">home</a>
+                <a href="#category">category</a>
+                <a href="product.html">product</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>download app</h3>
+            <div class="links">
+                <a href="#">google play</a>
+                <a href="#">window xp</a>
+                <a href="#">app store</a>
+            </div>
+        </div>
+
+    </div>
+
+
+</section>
+
+  <script src="js/script.js"></script>
+  </body>
+</html>
